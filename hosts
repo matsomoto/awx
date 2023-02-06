@@ -1,20 +1,9 @@
-
-[global]
-srv010nagm  ansible_fqdn=srv010nagm.homag.com
-
 [emea]
-mse-svpatch04  ansible_fqdn=mse-svpatch04.emea.duerr.int
-mse-svlinuxt91  ansible_fqdn=mse-svlinuxt91.emea.duerr.int
-
+mse-svpatch04.emea.duerr.int
+mse-svlinuxt91.emea.duerr.int
 [apac]
-msa-svmon01  ansible_fqdn=msa-svmon01.apac.duerr.int
-
+msa-svmon01.apac.duerr.int
 [ncsa]
-msn-svmon02  ansible_fqdn=msn-svmon02.ncsa.duerr.int
-
-
-[dev]
-
-
+msn-svmon02.ncsa.duerr.int
 [test01]
-mse-svlinuxt04  ansible_fqdn=mse-svlinuxt04.emea.duerr.int
+mse-svlinuxt04.emea.duerr.int
